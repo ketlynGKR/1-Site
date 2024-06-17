@@ -208,7 +208,7 @@ h1 {
 }
 
 .texto {
-    margin-top: -800px;
+    margin-top: -850px;
 }
 
 .texto{
@@ -224,6 +224,7 @@ h1 {
     padding-bottom: 500px;
     border: double 10px var(--verde);
     backdrop-filter: blur(5px);
+    transition: 1s;
 }
 
 .migracao {
@@ -255,7 +256,10 @@ h1 {
     overflow: hidden;
     transition: 1s;
     margin-top: 0%;
+}
 
+.razao:hover{
+    background-color:  #8dbd9b;
 }
 
 .razoes .razao h2{
@@ -272,4 +276,13 @@ h1 {
     margin: 10%;
     top: 45px;
     color: var(--verde-escuro);
+}
+
+.pessoas {
+    background-image: linear-gradient(to bottom, var(--verde-escuro),  #042527);
+    height: 100vh;
+}
+
+.fim {
+    background-image: linear-gradient(to top, #22503a,  #042527);
 }
