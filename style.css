@@ -89,7 +89,7 @@ h1 {
 }
 
 .campo-cidade {
-    background-image: url(fundo2.png);
+    background-image: url(fundo4.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -151,14 +151,14 @@ h1 {
     font-size: 20px;
     height: 500px;
     width: 400px;
-    box-shadow: 0 5px 20px var(--verde);
+    box-shadow: 0 5px 25px var(--verde);
 }
 
 .cidade:hover {
     font-size: 20px;
     height: 500px;
     width: 400px;
-    box-shadow: 0 5px 20px var(--verde);
+    box-shadow: 0 5px 25px var(--verde);
 }
 
 .foto {
@@ -198,91 +198,4 @@ h1 {
     text-align: center;
     font-size: 17px;
     height: 100vh;
-}
-
-
-.imgfundo{
-    background-image: url(fundo3.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.texto {
-    margin-top: -850px;
-}
-
-.texto{
-    width: 60%;
-    height: 50px;
-    margin-left: 19%;
-    margin-right: 50px;
-    background-image: linear-gradient(to bottom, var(--verde-escuro) 1%, transparent );
-    border-radius: 90px;
-    box-shadow: 0 1px 5px var(--verde);
-    padding: 5px;
-    padding-top: 25px;
-    padding-bottom: 500px;
-    border: double 10px var(--verde);
-    backdrop-filter: blur(5px);
-    transition: 1s;
-}
-
-.migracao {
-    margin-top: 5%;
-    margin-bottom: 8%;
-    margin-left: 12%;
-    margin-right: 12%;
-    text-align: center;
-    font-family: var(--fonte-3);
-    font-size: 16px;
-}
-
-.razoes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px 30px;
-    flex-wrap: wrap;
-}
-
-.razoes .razao {
-    position: relative;
-    width: 250px;
-    height: 290px;
-    background-color: var(--verde);
-    border-radius: 55px 0 55px 0;
-    border: double 9px var(--verde-escuro);
-    margin-top: -55%;
-    overflow: hidden;
-    transition: 1s;
-    margin-top: 0%;
-}
-
-.razao:hover{
-    background-color:  #8dbd9b;
-}
-
-.razoes .razao h2{
-    color: var(--verde-escuro);
-    font-size: 18px;
-    width: 100%;
-    margin-top: 10%;
-}
-
-.razoes .razao p{
-    position: absolute;
-    text-align: justify;
-    width: 200px;
-    margin: 10%;
-    top: 45px;
-    color: var(--verde-escuro);
-}
-
-.pessoas {
-    background-image: linear-gradient(to bottom, var(--verde-escuro),  #042527);
-    height: 100vh;
-}
-
-.fim {
-    background-image: linear-gradient(to top, #22503a,  #042527);
 }
