@@ -104,6 +104,7 @@ h1 {
     height: 450px;
     background-color: transparent;
     backdrop-filter: blur(5px);
+    border: 2px solid var(--verde);
     border-radius: 30px;
     box-shadow: 0 5px 20px black;
     top: -100%;
@@ -115,6 +116,7 @@ h1 {
     width: 350px;
     height: 450px;
     background-color: transparent;
+    border: 2px solid var(--verde);
     border-radius: 30px;
     box-shadow: 0 5px 20px black;
     backdrop-filter: blur(5px);
@@ -131,26 +133,28 @@ h1 {
     background-color: transparent;
     border: 2px solid var(--verde);
     border-radius: 50px;
-    box-shadow: 0 1px 15px var(--verde);
+    box-shadow: inset 0px 0px 8px 1px var(--verde);
     width: 50%;
     height: 12%;
     font-size: 20px;
     margin: 25%;
     top: 57%;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .botao:hover {
     background-color: var(--verde);
     color: var(--verde-escuro);
-    box-shadow: 0 1px 15px #010C11;
+    border: 2px solid var(--verde);
+    box-shadow: inset 0px 0px 8px 1px var(--verde-escuro);
 }
 
 .campo:hover {
     font-size: 20px;
     height: 500px;
     width: 400px;
+    border: 2px solid var(--verde-escuro);
     box-shadow: 0 5px 25px var(--verde);
 }
 
@@ -158,6 +162,7 @@ h1 {
     font-size: 20px;
     height: 500px;
     width: 400px;
+    border: 2px solid var(--verde-escuro);
     box-shadow: 0 5px 25px var(--verde);
 }
 
@@ -193,9 +198,72 @@ h1 {
 
 .assunto {
     background-image: linear-gradient(to bottom, var(--verde-escuro), black);
-    font-family: var(--fonte-2);
+    font-family: var(--fonte-1);
     color: var(--verde);
     text-align: center;
     font-size: 17px;
     height: 100vh;
+    z-index: 3;
 }
+
+h2 {
+    margin-top: -1%;
+}
+
+.relatos{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    gap: 100px 40px;
+    flex-wrap: wrap;
+    z-index: 4;
+}
+
+.relatos2 {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    gap: 100px 40px;
+    flex-wrap: wrap;
+    margin-top: -32%;
+    z-index: 4;
+}
+
+.relato {
+    position:relative;
+    width: 250px;
+    height: 250px;
+    margin-top: -42%;
+    background-color: transparent;
+    border: 2px solid var(--verde);
+    border-radius: 80px 0 0;
+    padding: 10px;
+}
+
+#meio {
+    border-radius: 0;
+}
+
+#penultimo {
+    border-radius: 0 80px 0 0;
+}
+
+#meio2 {
+    border-radius: 0;
+}
+
+#penultimo2 {
+    border-radius: 0 0 80px 0;
+}
+
+.relato2 {
+    position:relative;
+    width: 250px;
+    height: 250px;
+    margin-top: -42%;
+    background-color: transparent;
+    border: 2px solid var(--verde);
+    border-radius: 0 0 0 80px;
+    padding: 10px;
+}
+
