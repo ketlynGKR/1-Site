@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: var(--verde-escuro);
+    background-color: #003a30;
 }
 
 .inicio{
@@ -197,7 +197,7 @@ h1 {
 }
 
 .assunto {
-    background-image: linear-gradient(to bottom, var(--verde-escuro), black);
+    background-color: var(--verde-escuro);
     font-family: var(--fonte-1);
     color: var(--verde);
     text-align: center;
@@ -223,10 +223,10 @@ h2 {
     display: flex;
     height: 100vh;
     justify-content: center;
-    gap: 100px 40px;
+    gap: 100px 10px;
     flex-wrap: wrap;
-    margin-top: -32%;
-    z-index: 4;
+    margin-top: -5%;
+    z-index: 5;
 }
 
 .relato {
@@ -236,8 +236,16 @@ h2 {
     margin-top: -42%;
     background-color: transparent;
     border: 2px solid var(--verde);
-    border-radius: 80px 0 0;
+    border-radius: 90px 0 0 90px;
     padding: 10px;
+    box-shadow: inset 0px 0px 7px 3px var(--verde);
+    transition: 0.5s;
+}
+
+.relato:hover {
+    background-color: var(--verde);
+    color: var(--verde-escuro);
+    border: 2px solid var(--verde-escuro);
 }
 
 #meio {
@@ -245,25 +253,31 @@ h2 {
 }
 
 #penultimo {
-    border-radius: 0 80px 0 0;
+    border-radius: 0 90px 90px 0;
 }
 
-#meio2 {
-    border-radius: 0;
-}
-
-#penultimo2 {
-    border-radius: 0 0 80px 0;
-}
-
-.relato2 {
-    position:relative;
-    width: 250px;
-    height: 250px;
-    margin-top: -42%;
-    background-color: transparent;
-    border: 2px solid var(--verde);
-    border-radius: 0 0 0 80px;
+#v {
     padding: 10px;
+    font-family: var(--fonte-3);
 }
 
+#vt {
+    font-family: var(--fonte-2);
+    margin-top: -90%;
+    text-align: center;
+    padding: 10%;
+}
+
+.assunto {
+    background-color: var(--verde-escuro);
+    font-family: var(--fonte-1);
+    color: var(--verde);
+    text-align: center;
+    font-size: 17px;
+    height: 100vh;
+    z-index: 3;
+}
+
+.fim {
+    background-color: var(--verde-escuro);
+}
